@@ -1,0 +1,70 @@
+@import "../../assets/component/typography/typography.css";
+@import "../../assets/component/button/button.css";
+@import "../../assets/component/card/card.css";
+@import "../../assets/component/form/form.css";
+
+* {
+    font-family: 'Helvetica Now Display';
+}
+body{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.container-fluid{
+    max-width: 1360px;
+}
+.container-fluid-background{
+    background: linear-gradient(to bottom, #F5F6F7 0%, #F5F6F7 100%) no-repeat;
+    background-size: calc(854px) calc(100%);
+    background-position: right;
+}
+.container{
+    max-width: 1152px;
+}
+.nav-link{
+    color: #0A1931;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #208B3A;
+}
+.nav-link:active{
+    color: #196D2E;
+}
+
+.nav-link-footer{
+    color: #808794;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+.nav-link-footer:hover{
+    color: #0A1931;
+}
+.nav-link-footer:active{
+    color: #0A1931;
+}
+
+.center-modal {
+    margin-top: 104px;
+    background-color: white;
+    padding: 40px;
+    width: 424px;
+}
+
+.center-modal input.form {
+    margin-top: 24px;
+}
+
+.center-modal button {
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.center-modal-config {
+    margin-top: 24px;
+}

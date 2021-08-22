@@ -1,0 +1,93 @@
+.button-l {
+    text-align: center;
+    padding: 10px 24px;
+}
+
+.button-m {
+    text-align: center;
+    padding: 10px 16px;  
+}
+
+.button-icon{
+    width: 40px;
+    height: 40px;
+    padding: 10px 16px; 
+    border: none;
+}
+
+.button-l, .button-m {
+    border: none;
+}
+
+.primary {
+    background-color: #208B3A;
+    color: #ffffff;
+} .primary:hover {
+    background-color: #196D2E;
+} .primary:active {
+    background-color: #125021;
+}
+
+.outline {
+    background-color: #ffffff;
+    color: #212121;
+    box-shadow: inset 0px 0px 0px 1px #CED1D6;
+    box-sizing: border-box;   
+} .outline:hover {
+    background-color: #208B3A;
+    color: #ffffff;
+    box-shadow: inset 0px 0px 0px 0px;
+} .outline:active {
+    background-color: #196D2E;
+    color: #ffffff;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+.no-outline-primary{
+    background-color: #ffffff;
+    color: #208B3A;
+    box-shadow: inset 0px 0px 0px 0px;
+    box-sizing: border-box;   
+} .no-outline:hover {
+    background-color: #FFFFFF;
+    color: #196D2E;
+    box-shadow: inset 0px 0px 0px 0px;
+} .no-outline:active {
+    background-color: #FFFFFF;
+    color: #196D2E;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+.no-outline{
+    background-color: transparent;
+    color: #212121;
+    box-shadow: inset 0px 0px 0px 0px;
+    box-sizing: border-box;   
+} .no-outline:hover {
+    background-color: transparent;
+    color: #208B3A;
+    box-shadow: inset 0px 0px 0px 0px;
+} .no-outline:active {
+    background-color: transparent;
+    color: #196D2E;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+.carousel-control-prev {
+    width: auto;
+    margin-left: -28px;
+}
+
+.carousel-control-next {
+    width: auto;
+    margin-right: -28px;
+}
+
+.carousel-control-prev i, .carousel-control-next i {
+    padding: 12px;
+    border-radius: 80px;
+    font-size: 28px;
+    color: #212121;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 40px 0px #00000014;
+}

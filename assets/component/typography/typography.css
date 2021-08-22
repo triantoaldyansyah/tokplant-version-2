@@ -1,0 +1,119 @@
+@font-face {font-family: 'Helvetica Now Display'; src: url('./HelveticaNowDisplay-Bold.ttf') format('truetype');font-weight: bold; font-style: normal;}
+@font-face {font-family: 'Helvetica Now Display'; src: url('./HelveticaNowDisplay-Regular.ttf') format('truetype');font-weight: normal; font-style: normal;}
+
+.heading{
+    font-style: normal;
+    color: #000000;
+}
+    .heading h1{
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: 1px;
+    }
+    .heading h2{
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 56px;
+        letter-spacing: 1px;
+    }
+    .heading h3{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+    }
+    .heading h4{
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+    .heading h5{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+    }
+    .heading h6{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+    }
+.paragraph-reguler {
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+    .paragraph-reguler subtitle{
+        color: #808794;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+    }
+    .paragraph-reguler regular{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    }
+    .paragraph-reguler small{
+        color: #808794;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.3px;
+    }
+
+.paragraph-bold {
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+    .paragraph-bold subtitle{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+    }
+    .paragraph-bold regular {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    }
+    .paragraph-bold small{
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.3px;
+    }
+
+.button-title-regular{
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;   
+}
+    .button-title-regular regular{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+    }
+    .button-title-regular small{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    }
+    
+
+.button-title-bold{
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+}
+    .button-title-bold regular{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+    }
+    .button-title-bold small{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.3px;
+    }
