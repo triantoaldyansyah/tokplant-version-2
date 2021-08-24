@@ -38,7 +38,7 @@
 }
 .card-article .icon li{
     display: inline-block;
-    margin: 4px;
+    margin: 4px 2px;
 }
 .card-article .icon li a{
     color: #FFFFFF;
@@ -51,7 +51,7 @@
     display: block;
     transition: all 0.3s ease 0s;
 }
-.card-article .icon li a:hover{ background: #61AD74; border-radius: 80px; }
+.card-article .icon li a:hover{ background: #61AD74; border-radius: 80px;}
 @media only screen and (max-width:990px){
     .card-article { margin: 0 0 30px; }
 }
