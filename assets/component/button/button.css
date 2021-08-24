@@ -84,7 +84,7 @@
 }
 
 .carousel-control-prev i, .carousel-control-next i {
-    padding: 12px;
+    padding: 4px 12px;
     border-radius: 80px;
     font-size: 28px;
     color: #212121;
