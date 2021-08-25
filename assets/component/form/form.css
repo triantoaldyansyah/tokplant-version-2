@@ -19,6 +19,33 @@
     color: #A7ACB5;
 }
 
+.form-with-icon {
+    display: block;
+    border-radius: 0px;
+    width: 86%;
+    border: 1px solid #CED1D6;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    background-color: white;
+    color: #212121;
+}.form-with-icon:focus {
+    color: #212529;
+    background-color: white;
+    border-color: #208B3A;
+    outline: 0;
+}.form-with-icon::placeholder {
+    color: #A7ACB5;
+}
+.input-group-text{
+    background-color: transparent;
+}.input-group-text i{
+    font-size: 22px; 
+    color: #808794;
+}
 .form-l  {
     height: 48px;
     padding: 0px 16px;
