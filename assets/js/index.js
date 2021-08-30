@@ -25,7 +25,7 @@ $(document).ready(function(){
           
           // If is not undefined
         
-              // Increment
+              // decrement
               if(quantity>0){
               $('#quantity').val(quantity - 1);
               }
