@@ -18,7 +18,7 @@
     cursor: pointer;
 }
 .card-article .card-article-content{
-    color: #fff;
+    color: #FFFFFF;
     background: #208B3A;
     text-align: center;
     width: 52px;
@@ -29,7 +29,7 @@
     transform: translateX(-50%) translateY(-50%) scale(2);
     margin-left: 280px;
     z-index: 2;
-    transition: all 0.4s ease-out;
+    transition: all 0.4s fade;
 }
 .card-article:hover .card-article-content{
     opacity: 0.85;
@@ -103,8 +103,11 @@ img {
     .preview-thumbnail.nav-tabs li {
       width: 48%;
       margin-right: 2.5%;
-      background-color: #208B3A;
+      background-color: #F5F6F7;
     }
+      .preview-thumbnail.nav-tabs li:active {
+        border: 1px solid #A3CFAE
+      }
       .preview-thumbnail.nav-tabs li img {
         max-width: 100%;
         display: block; }
