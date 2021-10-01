@@ -31,6 +31,11 @@
     z-index: 2;
     transition: all 0.4s fade;
 }
+.card-detail-cart{
+  width: 80px;
+  height: 80px;
+  background-color: #F5F6F7;
+}
 .card-article:hover .card-article-content{
     opacity: 0.85;
     transform:  translateY(-50%) scale(1);
@@ -193,17 +198,20 @@ img {
   
   .not-available {
     text-align: center;
-    line-height: 2em; }
-    .not-available:before {
+    line-height: 2em;
+   }
+    .not-available::before {
       font-family: fontawesome;
-      content: "\f00d";
-      color: #fff; }
+      content: "\f00c";
+      color: #fff;
+      margin-left: -4px;
+     }
   
   .orange {
     background: #ff9f1a; }
   
   .green {
-    background: #85ad00; }
+    background: #208B3A; }
   
   .blue {
     background: #0076ad; }

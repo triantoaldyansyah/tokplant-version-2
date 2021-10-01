@@ -43,7 +43,7 @@
               <div class="col-md-3 align-content-center ps-5">
                 <a href="./page/login.html"><button class="button-m no-outline button-title-regular"><regular>Login</regular></button></a>
                 <a href="./page/register.html"><button class="button-m outline button-title-bold ms-2"><regular>Register</regular></button></a>
-                <button class="button-m outline button-title-bold ms-2"><regular class="bi-cart3"></regular>
+                <button class="button-m outline button-title-bold ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal3"><regular class="bi-cart3"></regular>
                   <span class="position-absolute mt-1 translate-middle p-1 bg-success border border-light rounded-circle">
                     <span class="visually-hidden">New alerts</span>
                   </span>
@@ -51,6 +51,145 @@
               </div>
           </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md w-100 modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body p-4">
+            <div class="col-md-1 ms-auto mb-2">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="col-md-12">
+              <div class="wrapper row pb-2">
+                <heading class="heading p-0"><h5>Checkout</h5></heading>
+                <!-- Detail cart 1 -->
+                <div class="col-md-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 p-0">
+                      <div class="card-detail-cart">
+                        <img src="./assets/component/img/img-section-3-1.png" style="width: 80px; height: 80px;"/>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <heading class="heading"><h6 class="mt-2">Ronald Richards</h6></heading>
+                      <p class="paragraph-reguler m-0 mb-1"><reguler style="color: #808794;">Green, S</reguler></p>
+                      <p class="paragraph-bold"><regular style="color: #208B3A;">30.000 IDR</regular></p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group align-self-center w-100">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                              <span class="ri-subtract-line"></span>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center " value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                <span class="ri-add-line"></span>
+                            </button>
+                        </span>
+                        <span class="input-group-btn ms-3">
+                          <button type="button" class="button-m outline button-title" data-type="deleted" data-field="">
+                              <span class="ri-delete-bin-line"></span>
+                          </button>
+                      </span>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!-- End Detail Cart 1-->
+
+                <!-- Detail Cart 2-->
+                <div class="col-md-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 p-0">
+                      <div class="card-detail-cart">
+                        <img src="./assets/component/img/img-section-3-2.png" style="width: 80px; height: 80px;"/>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <heading class="heading"><h6 class="mt-2">Ronald Richards</h6></heading>
+                      <p class="paragraph-reguler m-0 mb-1"><reguler style="color: #808794;">Green, L</reguler></p>
+                      <p class="paragraph-bold"><regular style="color: #208B3A;">30.000 IDR</regular></p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group align-self-center w-100">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                              <span class="ri-subtract-line"></span>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center " value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                <span class="ri-add-line"></span>
+                            </button>
+                        </span>
+                        <span class="input-group-btn ms-3">
+                          <button type="button" class="button-m outline button-title" data-type="deleted" data-field="">
+                              <span class="ri-delete-bin-line"></span>
+                          </button>
+                      </span>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!-- End Detail Cart 2-->
+
+                <!-- Detail Cart 3-->
+                <div class="col-md-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 p-0">
+                      <div class="card-detail-cart">
+                        <img src="./assets/component/img/img-section-3-3.png" style="width: 80px; height: 80px;"/>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <heading class="heading"><h6 class="mt-2">Ronald Richards</h6></heading>
+                      <p class="paragraph-reguler m-0 mb-1"><reguler style="color: #808794;">Green, M</reguler></p>
+                      <p class="paragraph-bold"><regular style="color: #208B3A;">30.000 IDR</regular></p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group align-self-center w-100">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                              <span class="ri-subtract-line"></span>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center " value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                <span class="ri-add-line"></span>
+                            </button>
+                        </span>
+                        <span class="input-group-btn ms-3">
+                          <button type="button" class="button-m outline button-title" data-type="deleted" data-field="">
+                              <span class="ri-delete-bin-line"></span>
+                          </button>
+                      </span>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!-- End Detail Cart 3-->
+
+                <div class="col-md-12 p-0 mt-2">
+                  <div class="row">
+                    <div class="col-md-6 mt-3">
+                      <p class="paragraph-reguler"><regular>Total Price :</regular><span class="paragraph-bold"><regular class="ms-1" style="color: #208B3A;">90.000 IDR</regular></span></p>
+                    </div>
+                    <div class="col-md-6 ps-5">
+                      <button class="button-m primary paragraph-bold ps-5 px-5"><subtitle>Order Now</subtitle></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
     <!-- End Header-->
 
     
@@ -103,8 +242,6 @@
       </div>
     </div>
     <!-- End Section 1 -->   
-    
-
     
   <!-- Section 2 -->
   <div class="container">
@@ -165,10 +302,69 @@
                   <img src="./assets/component/img/img-section-3-1.png" class="card-img-top">
                   <div class="card-article-content">
                     <ul class="icon">
-                        <li><a href="#"><i class="bi-cart3"></i></a></li>
-                        <li><a href="#"><i class="bi-suit-heart"></i></a></li>
+                      <li><a data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi-cart3"></i></a></li>
+                      <li><a href="#"><i class="bi-suit-heart"></i></a></li>
                     </ul>
                   </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl w-50 modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-body p-4">
+                          <div class="col-md-1 ms-auto mb-4">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="wrapper row">
+                              <div class="preview col-md-6">
+                                <div class="preview-pic tab-content ms-4">
+                                  <div class="tab-pane color-backdrop active" id="pic-1"><img src="./assets/component/img/img-section-3-1.png" /></div>
+                                  <div class="tab-pane color-backdrop" id="pic-2"><img src="./assets/component/img/img-section-3-2.png" /></div>
+                                </div>
+                                <ul class="preview-thumbnail nav nav-tabs ms-4">
+                                  <li class="active"><a data-bs-target="#pic-1" data-bs-toggle="tab"><img src="./assets/component/img/img-section-3-1.png"/></a></li>
+                                  <li><a data-bs-target="#pic-2" data-bs-toggle="tab"><img src="./assets/component/img/img-section-3-2.png"/></a></li>
+                                </ul>
+                                <div class="input-group align-self-center w-50 mt-3 ms-2">
+                                  <span class="input-group-btn">
+                                      <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                                        <span class="ri-subtract-line"></span>
+                                      </button>
+                                  </span>
+                                  <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                                  <span class="input-group-btn">
+                                      <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                          <span class="ri-add-line"></span>
+                                      </button>
+                                  </span>
+                                </div>                                  
+                              </div>
+                              <div class="details col-md-6">
+                                <p class="paragraph-reguler ms-4"><regular style="color: #808794;">Availability :</regular><span class="paragraph-bold ms-1"><regular style="color: #208B3A;">In Stock</regular></span></p>
+                                <heading class="heading ps-0 ms-4 mt-1"><h5>Ronald Richards</h5></heading>
+                                <p class="paragraph-reguler ms-4 mt-1"><small>Donec lacus dolor, tincidunt id justo <br> sit amet, Nulla consequat elementum <br> ex, in placerat lectus</small></p>
+                                <heading class="heading ms-4"><h6 style="color: #208B3A;">30.000 IDR</h6></heading>
+                                <p class="paragraph-reguler ms-4"><small>Pot Color :</small><span class="paragraph-reguler ms-1"><small style="color: #208B3A;">Green</small></span></p>
+                                <div class="row ms-1">
+                                  <p class="color green not-available"></p>
+                                  <p class="color orange"></p>
+                                  <p class="color blue"></p>
+                                </div>
+                                <p class="paragraph-reguler ms-4"><small>Pot Size :</small></p>
+                                <div class="col-md-8 ms-3">
+                                  <button class="button-icon-size outline pt-0 ms-2">S</button>
+                                  <button class="button-icon-size outline pt-0 ms-2">M</button>
+                                  <button class="button-icon-size outline pt-0 ms-2">L</button>
+                                </div>
+                                <button class="button-m primary paragraph-bold ms-auto mt-4 mx-4"><subtitle>Add To Cart</subtitle></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Modal -->
                   <div class="card-body ms-2">
                     <heading class="heading"><h5>Ronald Richards</h5></heading>
                     <p class="paragraph-reguler"><regular style="color: #808794;;">Donec lacus dolor, tincidunt id justo sit amet, Nulla consequat elementum ex, in placerat lectus </regular></p>
@@ -180,16 +376,16 @@
                     <img src="./assets/component/img/img-section-3-2.png" class="card-img-top">
                     <div class="card-article-content">
                       <ul class="icon">
-                          <li><a data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi-cart3"></i></a></li>
-                          <li><a href="#"><i class="bi-suit-heart"></i></a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi-cart3"></i></a></li>
+                        <li><a href="#"><i class="bi-suit-heart"></i></a></li>
                       </ul>
                     </div>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-dialog modal-xl w-50 modal-dialog-centered modal-dialog-scrollable">
                         <div class="modal-content">
-                          <div class="modal-body">
-                            <div class="col-md-1 ms-auto mx-4 mb-4">
+                          <div class="modal-body p-4">
+                            <div class="col-md-1 ms-auto mb-4">
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="col-md-12">
@@ -203,13 +399,13 @@
                                     <li class="active"><a data-bs-target="#pic-1" data-bs-toggle="tab"><img src="./assets/component/img/img-section-3-1.png"/></a></li>
                                     <li><a data-bs-target="#pic-2" data-bs-toggle="tab"><img src="./assets/component/img/img-section-3-2.png"/></a></li>
                                   </ul>
-                                  <div class="input-group mt-2 ms-2">
+                                  <div class="input-group align-self-center w-50 mt-3 ms-2">
                                     <span class="input-group-btn">
                                         <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
                                           <span class="ri-subtract-line"></span>
                                         </button>
                                     </span>
-                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
                                     <span class="input-group-btn">
                                         <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
                                             <span class="ri-add-line"></span>
@@ -219,19 +415,30 @@
                                 </div>
                                 <div class="details col-md-6">
                                   <p class="paragraph-reguler ms-4"><regular style="color: #808794;">Availability :</regular><span class="paragraph-bold ms-1"><regular style="color: #208B3A;">In Stock</regular></span></p>
-                                  <heading class="heading ps-0 ms-4 mt-3"><h5>Ronald Richards</h5></heading>
-                                  <p class="paragraph-reguler ms-4 mt-2"><small>Donec lacus dolor, tincidunt id justo <br> sit amet, Nulla consequat elementum <br> ex, in placerat lectus</small></p>
+                                  <heading class="heading ps-0 ms-4 mt-1"><h5>Ronald Richards</h5></heading>
+                                  <p class="paragraph-reguler ms-4 mt-1"><small>Donec lacus dolor, tincidunt id justo <br> sit amet, Nulla consequat elementum <br> ex, in placerat lectus</small></p>
                                   <heading class="heading ms-4"><h6 style="color: #208B3A;">30.000 IDR</h6></heading>
-                                  <p class="paragraph-reguler ms-4"><small>Color :</small><span class="paragraph-reguler ms-1"><small style="color: #208B3A;">Green</small></span></p>
+                                  <p class="paragraph-reguler ms-4"><small>Pot Color :</small><span class="paragraph-reguler ms-1"><small style="color: #208B3A;">Green</small></span></p>
+                                  <div class="row ms-1">
+                                    <p class="color green not-available"></p>
+                                    <p class="color orange"></p>
+                                    <p class="color blue"></p>
+                                  </div>
+                                  <p class="paragraph-reguler ms-4"><small>Pot Size :</small></p>
+                                  <div class="col-md-8 ms-3">
+                                    <button class="button-icon-size outline pt-0 ms-2">S</button>
+                                    <button class="button-icon-size outline pt-0 ms-2">M</button>
+                                    <button class="button-icon-size outline pt-0 ms-2">L</button>
+                                  </div>
+                                  <button class="button-m primary paragraph-bold ms-auto mt-4 mx-4"><subtitle>Add To Cart</subtitle></button>
                                 </div>
                               </div>
                             </div>
-                            
-
                           </div>
                         </div>
                       </div>
                     </div>
+                    <!-- End Modal -->
                     <div class="card-body ms-2">
                       <heading class="heading"><h5>Leslie Alexander</h5></heading>
                       <p class="paragraph-reguler"><regular style="color: #808794;;">Donec lacus dolor, tincidunt id justo sit amet, Nulla consequat elementum ex, in placerat lectus </regular></p>
@@ -243,10 +450,70 @@
                     <img src="./assets/component/img/img-section-3-3.png" class="card-img-top">
                     <div class="card-article-content">
                       <ul class="icon">
-                          <li><a href="#"><i class="bi-cart3"></i></a></li>
-                          <li><a href="#"><i class="bi-suit-heart"></i></a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi-cart3"></i></a></li>
+                        <li><a href="#"><i class="bi-suit-heart"></i></a></li>
                       </ul>
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl w-50 modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-body p-4">
+                            <div class="col-md-1 ms-auto mb-4">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="wrapper row">
+                                <div class="preview col-md-6">
+                                  <div class="preview-pic tab-content ms-4">
+                                    <div class="tab-pane color-backdrop active" id="pic-1"><img src="./assets/component/img/img-section-3-1.png" /></div>
+                                    <div class="tab-pane color-backdrop" id="pic-2"><img src="./assets/component/img/img-section-3-2.png" /></div>
+                                  </div>
+                                  <ul class="preview-thumbnail nav nav-tabs ms-4">
+                                    <li class="active"><a data-bs-target="#pic-1" data-bs-toggle="tab"><img src="./assets/component/img/img-section-3-1.png"/></a></li>
+                                    <li><a data-bs-target="#pic-2" data-bs-toggle="tab"><img src="./assets/component/img/img-section-3-2.png"/></a></li>
+                                  </ul>
+                                  <div class="input-group align-self-center w-50 mt-3 ms-2">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                                          <span class="ri-subtract-line"></span>
+                                        </button>
+                                    </span>
+                                    <input type="text" id="quantity" name="quantity" class="form-control input-number text-center" value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                            <span class="ri-add-line"></span>
+                                        </button>
+                                    </span>
+                                  </div>                                  
+                                </div>
+                                <div class="details col-md-6">
+                                  <p class="paragraph-reguler ms-4"><regular style="color: #808794;">Availability :</regular><span class="paragraph-bold ms-1"><regular style="color: #208B3A;">In Stock</regular></span></p>
+                                  <heading class="heading ps-0 ms-4 mt-1"><h5>Ronald Richards</h5></heading>
+                                  <p class="paragraph-reguler ms-4 mt-1"><small>Donec lacus dolor, tincidunt id justo <br> sit amet, Nulla consequat elementum <br> ex, in placerat lectus</small></p>
+                                  <heading class="heading ms-4"><h6 style="color: #208B3A;">30.000 IDR</h6></heading>
+                                  <p class="paragraph-reguler ms-4"><small>Pot Color :</small><span class="paragraph-reguler ms-1"><small style="color: #208B3A;">Green</small></span></p>
+                                  <div class="row ms-1">
+                                    <p class="color green not-available"></p>
+                                    <p class="color orange"></p>
+                                    <p class="color blue"></p>
+                                  </div>
+                                  <p class="paragraph-reguler ms-4"><small>Pot Size :</small></p>
+                                  <div class="col-md-8 ms-3">
+                                    <button class="button-icon-size outline pt-0 ms-2">S</button>
+                                    <button class="button-icon-size outline pt-0 ms-2">M</button>
+                                    <button class="button-icon-size outline pt-0 ms-2">L</button>
+                                  </div>
+                                  <button class="button-m primary paragraph-bold ms-auto mt-4 mx-4"><subtitle>Add To Cart</subtitle></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End Modal -->
+
                     <div class="card-body ms-0">
                       <heading class="heading"><h5>Darlene Robertson</h5></heading>
                       <p class="paragraph-reguler"><regular style="color: #808794;;">Donec lacus dolor, tincidunt id justo sit amet, Nulla consequat elementum ex, in placerat lectus </regular></p>

@@ -14,6 +14,12 @@
     padding: 10px 16px; 
     border: none;
 }
+.button-icon-size{
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    border: none;
+}
 
 .button-l, .button-m {
     border: none;
