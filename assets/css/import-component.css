@@ -47,6 +47,40 @@ body{
 .nav-link-footer:active{
     color: #0A1931;
 }
+.nav-page li{
+    width: 52px;
+    height: 52px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A1D37;
+    margin: 8px;
+    text-align: center;
+  }
+  .nav-page li:hover{
+    color: #FFFFFF;
+    background-color: #30A730;
+  }
+  
+  .nav-page a{
+    width: 52px;
+    height: 52px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A1D37;
+    padding: 12px;
+  }
+  .nav-page a.active{
+    color: #FFFFFF;
+    background-color: #30A730;
+  }
+  .nav-page a:hover{
+    color: #FFFFFF;
+    background-color: #30A730;
+  }
 
 .center-modal {
     margin-top: 104px;

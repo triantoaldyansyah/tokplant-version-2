@@ -25,6 +25,14 @@
     border: none;
 }
 
+.button-dropdown{
+    width: 264px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #D2D7E0;
+    padding: 12px 16px;
+  }
+
 .primary {
     background-color: #208B3A;
     color: #ffffff;
