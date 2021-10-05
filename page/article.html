@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    
+    <!-- required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- favicon -->
+    <link rel='icon' href='../assets/component/icon/icon-logo.png' type='image/x-icon' sizes="16x16" />
+    
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- import own CSS -->
+    <link href="../assets/css/import-component.css" rel="stylesheet">
+
+    <title>Tokplant - Toko Tumbuhan</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <div class="container-fluid fixed-top bg-white pt-2 pb-2">
+      <!-- Navbar -->
+          <div class="row align-items-center">
+              <div class="col-md-3 ms-4">
+                  <img src="../assets/component/img/Logo.svg" />
+              </div>
+              <div class="col-md-5 me-auto">
+                  <div class="nav justify-content-center">
+                      <a class="nav-link paragraph-reguler active" href="./article.html"><regular>Article</regular></a>
+                      <a class="nav-link paragraph-reguler"><regular>Products</regular></a>
+                      <a class="nav-link paragraph-reguler"><regular>Community</regular></a>
+                      <a class="nav-link paragraph-reguler"><regular>About Us</regular></a>
+                      <a class="nav-link paragraph-reguler"><regular>Contact</regular></a>
+                  </div>
+              </div>
+              <div class="col-md-3 align-content-center ps-5">
+                <a href="./login.html"><button class="button-m no-outline button-title-regular"><regular>Login</regular></button></a>
+                <a href=".register.html"><button class="button-m outline button-title-bold ms-2"><regular>Register</regular></button></a>
+                <button class="button-m outline button-title-bold ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal3"><regular class="bi-cart3"></regular>
+                  <span class="position-absolute mt-1 translate-middle p-1 bg-success border border-light rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </button>
+              </div>
+          </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-md w-100 modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-body p-4">
+            <div class="col-md-1 ms-auto mb-2">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="col-md-12">
+              <div class="wrapper row pb-2 px-2">
+                <heading class="heading p-0"><h5>Checkout</h5></heading>
+                <!-- Detail cart 1 -->
+                <div class="col-md-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 p-0">
+                      <div class="card-detail-cart">
+                        <img src="../assets/component/img/img-section-3-1.png" style="width: 80px; height: 80px;"/>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <heading class="heading"><h6 class="mt-2">Ronald Richards</h6></heading>
+                      <p class="paragraph-reguler m-0 mb-1"><reguler style="color: #808794;">Green, S</reguler></p>
+                      <p class="paragraph-bold"><regular style="color: #208B3A;">30.000 IDR</regular></p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group align-self-center w-100">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                              <span class="ri-subtract-line"></span>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center " value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                <span class="ri-add-line"></span>
+                            </button>
+                        </span>
+                        <span class="input-group-btn ms-3">
+                          <button type="button" class="button-m outline button-title" data-type="deleted" data-field="">
+                              <span class="ri-delete-bin-line"></span>
+                          </button>
+                      </span>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!-- End Detail Cart 1-->
+
+                <!-- Detail Cart 2-->
+                <div class="col-md-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 p-0">
+                      <div class="card-detail-cart">
+                        <img src="../assets/component/img/img-section-3-2.png" style="width: 80px; height: 80px;"/>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <heading class="heading"><h6 class="mt-2">Ronald Richards</h6></heading>
+                      <p class="paragraph-reguler m-0 mb-1"><reguler style="color: #808794;">Green, L</reguler></p>
+                      <p class="paragraph-bold"><regular style="color: #208B3A;">30.000 IDR</regular></p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group align-self-center w-100">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                              <span class="ri-subtract-line"></span>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center " value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                <span class="ri-add-line"></span>
+                            </button>
+                        </span>
+                        <span class="input-group-btn ms-3">
+                          <button type="button" class="button-m outline button-title" data-type="deleted" data-field="">
+                              <span class="ri-delete-bin-line"></span>
+                          </button>
+                      </span>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!-- End Detail Cart 2-->
+
+                <!-- Detail Cart 3-->
+                <div class="col-md-12">
+                  <div class="row align-items-center">
+                    <div class="col-md-2 p-0">
+                      <div class="card-detail-cart">
+                        <img src="../assets/component/img/img-section-3-3.png" style="width: 80px; height: 80px;"/>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <heading class="heading"><h6 class="mt-2">Ronald Richards</h6></heading>
+                      <p class="paragraph-reguler m-0 mb-1"><reguler style="color: #808794;">Green, M</reguler></p>
+                      <p class="paragraph-bold"><regular style="color: #208B3A;">30.000 IDR</regular></p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group align-self-center w-100">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-left-minus button-m outline button-title-bold"  data-type="minus" data-field="">
+                              <span class="ri-subtract-line"></span>
+                            </button>
+                        </span>
+                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center " value="0" min="1" max="100" style="border-top: transparent; border-bottom: transparent; background-color: #F5F6F7;">
+                        <span class="input-group-btn">
+                            <button type="button" class="quantity-right-plus button-m outline button-title-bold" data-type="plus" data-field="">
+                                <span class="ri-add-line"></span>
+                            </button>
+                        </span>
+                        <span class="input-group-btn ms-3">
+                          <button type="button" class="button-m outline button-title" data-type="deleted" data-field="">
+                              <span class="ri-delete-bin-line"></span>
+                          </button>
+                      </span>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+                <!-- End Detail Cart 3-->
+
+                <div class="col-md-12 p-0 mt-2">
+                  <div class="row">
+                    <div class="col-md-6 mt-3">
+                      <p class="paragraph-reguler"><regular>Total Price :</regular><span class="paragraph-bold"><regular class="ms-1" style="color: #208B3A;">90.000 IDR</regular></span></p>
+                    </div>
+                    <div class="col-md-6 ps-5">
+                      <button class="button-m primary paragraph-bold ps-5 px-5"><subtitle>Order Now</subtitle></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+    <!-- End Header-->
+
+    <!-- Section 1 -->
+    <div class="container-fluid p-0" style="margin-top: 64px;">
+        <div class="container">
+            <!-- Content 1 -->
+            <div class="col-md-12" style="margin-top: 140px;">
+              <div class="row justify-content-between">
+                <div class="col-md-9">
+                  <heading class="heading"><h2 class="m-0">We story about us or <br /> anything</h2></heading>
+                </div>
+              </div>
+            </div>
+            <!-- End Content 1 -->
+        </div>
+        
+        <div class="contaier-fluid">
+            <!-- Content 2 -->
+            <div class="container" style="padding-bottom: 80px; margin-top: 64px; margin-bottom: 180px;">
+                <!-- Carousel -->
+                <div id="carouselItem2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Carousel Item 1 -->
+                        <div class="carousel-item active">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6 card-page-article p-0">
+                                    <img src="../assets/component/img/img-carousel-article-page-1.png" alt="image-1">
+                                </div>
+                                <div class="col-md-4 card-page-article p-0 ps-4">
+                                    <p class="paragraph-bold mt-2"><subtitle style="color: #208B3A;">#NEW RELEASE</subtitle></p>
+                                    <heading class="heading"><h2>What top small <br> plant for table on <br> living room?</h2></heading>
+                                    <p class="paragraph-reguler mt-4"><subtitle>Consider that for a moment: everything we see <br> around us is assumed to have had a cause and is <br> contingent upon something else. However,</subtitle></p>
+                                    <button class="button-l outline heading" style="margin-top: 80px;"><h6 class="m-0">Read More <span class="bi-arrow-right ms-2"></span></h6></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Carousel Item 1 -->
+            
+                        <!-- Carousel Item 2 -->
+                        <div class="carousel-item">
+                            <div class="row justify-content-between">
+                                <div class="col-md-6 card-page-article p-0">
+                                    <img src="../assets/component/img/img-carousel-article-page-2.png" alt="image-1">
+                                </div>
+                                <div class="col-md-4 card-page-article p-0 ps-4">
+                                    <p class="paragraph-bold mt-2"><subtitle style="color: #208B3A;">#NEW RELEASE</subtitle></p>
+                                    <heading class="heading"><h2>What top small <br> plant for table on <br> living room?</h2></heading>
+                                    <p class="paragraph-reguler mt-4"><subtitle>Consider that for a moment: everything we see <br> around us is assumed to have had a cause and is <br> contingent upon something else. However,</subtitle></p>
+                                    <button class="button-l outline heading" style="margin-top: 80px;"><h6 class="m-0">Read More <span class="bi-arrow-right ms-2"></span></h6></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Carousel Item 2 -->
+            
+                    </div>
+                    <!-- Button Navigasi  -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselItem2" data-bs-slide="prev">
+                        <i class="ri-arrow-left-line"></i>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselItem2" data-bs-slide="next">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                    <!-- End Button Navigasi -->
+                </div>
+            </div>
+            <!-- End Content 2 -->
+        </div> 
+    </div>
+    <!-- End Section 1 -->
+    
+    
+  <!-- Footer -->
+<footer class="container-fluid p-0 text-center text-lg-start">
+
+  <!-- Section: Links  -->
+    <div class="container-fluid text-md-start mt-5 pt-5 border-top">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 ms-4 mx-4 mb-4">
+          <!-- Content -->
+          <img src="../assets/component/img/Logo.svg" />
+          <p class="paragraph-reguler mt-5 w-75"><subtitle>Even on computers, deleted data is not actually tossed away, by rather written over. </subtitle></p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-2 mb-4">
+          <!-- Links -->
+          <heading class="heading"><h6>Navigate</h6></heading>
+          <p class="mt-3"><a href="#!" class="nav-link-footer">Article</a></p>
+          <p><a href="#!" class="nav-link-footer">Products</a></p>
+          <p><a href="#!" class="nav-link-footer">Community</a></p>
+          <a href="#!" class="nav-link-footer">About Us</a>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 ms-1 mx-auto mb-4">
+          <!-- Links -->
+          <heading class="heading"><h6>Information</h6></heading>
+          <p class="mt-3"><a href="#!" class="nav-link-footer">Terms & Condition</a></p>
+          <p><a href="#!" class="nav-link-footer">Privacy Policy</a></p>
+          <p><a href="#!" class="nav-link-footer">Contact</a></p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <heading class="heading"><h6>Our Newsletter</h6></heading>
+          <p class="mt-3"><a href="#!" class="nav-link-footer">Stay up to date with our story & product</a></p>
+          <form class="row g-3">
+            <div class="col-8">
+              <input type="text" class="form form-l bi-cart3" id="inputPassword2" placeholder="Email Address">
+            </div>
+            <div class="col-2">
+              <button type="submit" class="btn btn-success mb-3 mt-1"><i class="ri-arrow-right-line"></i></button>
+            </div>
+          </form>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+
+  <!-- Copyright -->
+  <div class="col-md-12 ps-4 px-4 pt-4">
+    <div class="row justify-content-between">
+      <div class="col-md-4 ms-2">
+        <p class="paragraph-reguler"><regular style="color: #808794;">2021 ©Tokplant. All rights reserved</regular></p>
+      </div>
+      <div class="col-md-4 text-end mx-4">
+        <p class="paragraph-reguler"><regular style="color: #808794;">Design & Code with fun and a cup of coffee</regular></p>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  
+    <!-- Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Javascript -->
+    <script src="../assets/js/index.js"></script>
+
+  </body>
+</html>

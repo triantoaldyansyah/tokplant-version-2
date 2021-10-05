@@ -73,6 +73,12 @@
     margin-top: -156px;
     padding: 32px;
 }
+.card-page-article{
+  width: 552px;
+  height: 480px;
+  cursor: pointer;
+}
+
 /* Modal cart detail */
 .modal-cart-detail{
     width: 552px;
